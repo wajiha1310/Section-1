@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Admission Form</title>
+</head>
+<body>
+    <h1>Student Admission Form</h1>
+    <hr>
+</body>
+
+<form>
+    <label>Full Name</label>
+    <input type="text" required minlength="4"><br><br>
+
+    <label>Email Address</label>
+    <input type="email" required><br>
+
+    <button>Summit</button><br><br>
+
+    <label>Age</label>
+    <input type="number" min="15"><br><br>
+
+    <label>Date Of Fee Submission</label>
+    <input type="date" ><br>
+
+    <label>Mailing Address</label>
+    <textarea cols="30" rows="10"></textarea>
+    <br>
+    <label>Select City</label>
+    <select>
+        <option>Lucknow</option>
+        <option>Kanpur</option>
+        <option>Banaras</option>
+    </select>
+
+    <label>Board Of Intermediate</label>
+    <input type="text" list="board" ><br>
+
+    <datalist id="board">
+        <option>UP Board</option>
+        <option>CBSE Board</option>
+        <option> ICSE Board</option>
+    </datalist>
+
+    <button>Summit</button>
+
+    <label>Gender</label>
+    <input type="radio" name="gender">Male
+    <input type="radio" name="gender">Female
+    <br><br>
+    <input type ="checkbox"> <span>Accept Terms And Conditons</span>
+
+    <details>
+        <summary>View Terms And Condions</summary>
+        <p>Lorem ipsum dolor <mark> sit amet consectetur adipisicing elit.</mark> Vel excepturi aspernatur ab, eum at praesentium saepe accusamus eius ad, quo incidunt quia quas odit explicabo impedit accusantium consequatur exercitationem debitis?</p>
+    </details>
+
+
+
+     
+
+</form>
+</html>
