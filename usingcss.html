@@ -15,7 +15,23 @@
             background-color:black ;
             font-size:20px;
         }
+        #myid{
+            color: rgb(0, 17, 255);
+            font-size: 40px;
+            font-weight: bold;
+        }
+        #myid2{
+            color:crimson ;
+            font-size: 40px;
+        }
+        .myclass2{
+            color: purple !important;
+        }
+        .myclass3{
+            color: rgb(42, 165, 93);
+        }
     </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -23,5 +39,9 @@
     <h2>Internal CSS Is Used To Style Multiple Elements AT Once</h2>
     <h2 class="myclass">Name selectors are used to select elements by their tag name</h2>
     <p class="myclass">class selectors are used to select elements by their class name</p>
+    <h3 id="myid">Id selectors are used to select elements by their ID name</h3>
+    <p id="myid2" class="myclass2">Some Text </p>
+    <h2 class="myclass2 myclass3">same selector priority</h2>
+    <button class="btn">Using External CSS</button>
 </body>
 </html>
